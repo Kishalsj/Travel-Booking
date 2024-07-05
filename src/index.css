@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,123 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+
+  background-color: black !important;
+  height: 80px;
+
+}
+.nav-link{
+  color: white !important;
+}
+.navbar-brand{
+
+  color: white !important;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+
+.smallimg{
+
+  height: 200px;
+  width: 100% !important;
+}
+
+h1{
+  font-size: 27px !important;
+  font-weight: 500 !important;
+}
+
+.btn{
+
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+  border-color: black !important;
+  margin-top: 20px !important;
+}
+
+
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+
+.bigimg{
+
+  height: 400px !important;
+border-radius: 5px !important;
+}
+
+input , select , .ant-picker{
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  border: 2px solid rgba(19, 18, 18, 0.377) !important;
+  width: 100% !important;
+  border-radius: 3px !important;
+  height: 35px !important;
+}
+
+.ant-picker-input input{
+
+border: none !important;
+
+
+}
+
+p{
+  font-size: 16px !important;
+  font-weight: 500;
+
+}
+
+h2{
+  font-size: 30px ;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.landing {
+  background-color: #1b1b1b;
+  height: 94vh;
+  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.landingbtn {
+  background-color: #242222; 
+  color: #fff; 
+  padding: 12px 24px;
+  font-size: 16px; 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 4px; 
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out; 
+}
+
+.landingbtn:hover {
+  background-color:  #000000; 
+  transform: translateY(-2px); 
+}
+
+
